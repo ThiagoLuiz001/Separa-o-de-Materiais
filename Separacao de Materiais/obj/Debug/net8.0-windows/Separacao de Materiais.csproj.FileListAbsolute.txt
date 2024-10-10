@@ -1,0 +1,55 @@
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Separacao de Materiais.exe
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Separacao de Materiais.deps.json
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Separacao de Materiais.runtimeconfig.json
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Separacao de Materiais.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Separacao de Materiais.pdb
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao de Materiais.csproj.AssemblyReference.cache
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao_de_Materiais.FrmPrincipal.resources
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao de Materiais.csproj.GenerateResource.cache
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao de Materiais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao de Materiais.AssemblyInfoInputs.cache
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao de Materiais.AssemblyInfo.cs
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao de Materiais.csproj.CoreCompileInputs.cache
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separaca.CE5B566E.Up2Date
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao de Materiais.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\refint\Separacao de Materiais.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao de Materiais.pdb
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao de Materiais.genruntimeconfig.cache
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\ref\Separacao de Materiais.dll
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao_de_Materiais.Properties.Resources.resources
+C:\Novo Almoxarifado\Separacao de Materiais\Separacao de Materiais\obj\Debug\net8.0-windows\Separacao_de_Materiais.Forms.FrmErase.resources
