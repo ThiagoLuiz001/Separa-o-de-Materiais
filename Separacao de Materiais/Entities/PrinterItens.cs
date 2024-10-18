@@ -1,41 +1,35 @@
 ﻿using Separacao_de_Materiais.Entities.Commons;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Separacao_de_Materiais.Entities
 {
-    class PrinterItens : Orders
+    sealed class PrinterItens : Orders
     {
-        public List<Itens>  _Itens { get; private set; } = new List<Itens>();
-
-        private char[] Description;
-
+        public string Description { get; private set; }
+        public string Group { get; private set; }
 
         public PrinterItens() { }
-        public PrinterItens(int order, int op, string client, Itens iten) : base(order, op, client)
+        public PrinterItens(int order, int op, string client, List<Itens> item) : base(order, op, client)
         {
-            _Itens.Add(iten);
-        }
-        public void AddList(Itens iten)
-        {
-            _Itens.Add(iten);
+            ItensDescription(item);
+            GroupDescription(item[0].CreationTree());
         }
 
-        public void AddDescription(string description)
+        private void ItensDescription(List<Itens> itens)
         {
-            Description = description.ToCharArray();
-        }
-        public string GroupDescription()
-        {
-            string group = "";
-            foreach (char c in Description)
+            
+            foreach(Itens i in itens)
             {
-                group += $"\n{c}";
+                Description += $"\n{i.ToString()}";
             }
-            return group.ToUpper();
+            
+        }
+        private void GroupDescription(string value)
+        {
+            char[] letters = value.ToCharArray();
+            foreach(char c in letters)
+            {
+                Group += $"\n{c.ToString().ToUpper()}";
+            }
         }
 
     }

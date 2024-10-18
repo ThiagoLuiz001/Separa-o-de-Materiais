@@ -1,5 +1,6 @@
 ﻿
 using Separacao_de_Materiais.Entities;
+using Separacao_de_Materiais.Entities.Commons;
 using Separacao_de_Materiais.Entities.Enums;
 using Separacao_de_Materiais.Models;
 using System.Diagnostics.Eventing.Reader;
@@ -126,28 +127,28 @@ namespace Separacao_de_Materiais.Forms
 
                 if (Filter.datas[Index].Aviation.Count != 0)
                 {
-                    foreach (Aviation avi in Filter.datas[Index].Aviation)
+                    foreach (Itens avi in Filter.datas[Index].Aviation)
                     {
                         gridErase.Rows.Add(false, avi.CreationTree(), avi.Description, $"{avi.Units}  {avi.Type}");
                     }
                 }
                 if (Filter.datas[Index].Accessories.Count != 0)
                 {
-                    foreach (Accessories acc in Filter.datas[Index].Accessories)
+                    foreach (Itens acc in Filter.datas[Index].Accessories)
                     {
                         gridErase.Rows.Add(false, acc.CreationTree(), acc.Description, $"{acc.Units} {acc.Type}");
                     }
                 }
                 if (Filter.datas[Index].Mirrors.Count != 0)
                 {
-                    foreach (Mirrors mirr in Filter.datas[Index].Mirrors)
+                    foreach (Itens mirr in Filter.datas[Index].Mirrors)
                     {
                         gridErase.Rows.Add(false, mirr.CreationTree(), mirr.Description, $"{mirr.Units} {mirr.Type}");
                     }
                 }
                 if (Filter.datas[Index].Ironmongery.Count != 0)
                 {
-                    foreach (Ironmongery iron in Filter.datas[Index].Ironmongery)
+                    foreach (Itens iron in Filter.datas[Index].Ironmongery)
                     {
                         gridErase.Rows.Add(false, iron.CreationTree(), iron.Description, $"{iron.Units} {iron.Type}");
                     }

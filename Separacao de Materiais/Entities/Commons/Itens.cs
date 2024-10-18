@@ -30,7 +30,7 @@ namespace Separacao_de_Materiais.Entities.Commons
 
         public override string ToString()
         {
-            return $"Cod: {Id}  - {Description}  - {Units} {Type}";
+            return $"Cod: {Id} - {Description} - {Units} {Type}";
         }
     }
 }

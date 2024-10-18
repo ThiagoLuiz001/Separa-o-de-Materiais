@@ -279,6 +279,8 @@
             // 
             // printMaterial
             // 
+            printMaterial.BeginPrint += printMaterial_BeginPrint;
+            printMaterial.EndPrint += printMaterial_EndPrint;
             printMaterial.PrintPage += printMaterial_PrintPage;
             // 
             // printPreviewDialog1

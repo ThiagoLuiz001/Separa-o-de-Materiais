@@ -5,16 +5,11 @@ namespace Separacao_de_Materiais.Entities
 {
     public class Data : Orders
     {
-        public List<Aviation> Aviation { get; set; } = new List<Aviation>();
-        public List<Accessories> Accessories { get; set; } = new List<Accessories>();
-        public List<Mirrors> Mirrors { get; set; } = new List<Mirrors>();
-        public List<Ironmongery> Ironmongery { get; set; } = new List<Ironmongery>();
+        public List<Itens> Aviation { get; set; } = new List<Itens>();
+        public List<Itens> Accessories { get; set; } = new List<Itens>();
+        public List<Itens> Mirrors { get; set; } = new List<Itens>();
+        public List<Itens> Ironmongery { get; set; } = new List<Itens>();
 
-
-
-
-        
-        public Data() { }
         public Data (int order, int op, string client, Itens item) : base(order, op, client)
         {
             if( item.Group == 107)
@@ -63,23 +58,23 @@ namespace Separacao_de_Materiais.Entities
 
         public void AviationCharge(Itens item)
         {
-            Aviation.Add(new Aviation(item));
+            Aviation.Add(item);
 
         }
 
         public void AccessoriesCharge(Itens item)
         {
-            Accessories.Add(new Accessories(item));
+            Accessories.Add(item);
         }
 
         public void MirrorsCharge(Itens item)
         {
-            Mirrors.Add(new Mirrors(item));
+            Mirrors.Add(item);
         }
 
         public void IronmongeryCharge(Itens item)
         {
-            Ironmongery.Add(new Ironmongery(item));
+            Ironmongery.Add(item);
         }
 
         public void ClearList(string group)

@@ -12,6 +12,7 @@ using System.Drawing.Printing;
 using System.Windows.Forms;
 using Separacao_de_Materiais.Properties;
 using System.Runtime.Intrinsics.X86;
+using Microsoft.VisualBasic;
 
 namespace Separacao_de_Materiais
 {
@@ -22,7 +23,7 @@ namespace Separacao_de_Materiais
     {
         private int countInfo = 0;
         private int Index = 0;
-        private float y = 30;
+        private int cap = 0;
         private List<PrinterItens> printers = new List<PrinterItens>();
 
         //______________________________________Ajustar Imagem________________________________________
@@ -67,67 +68,19 @@ namespace Separacao_de_Materiais
             {
                 if (D.Aviation.Count != 0)
                 {
-                    cp = true;
-                    foreach (Aviation avi in D.Aviation)
-                    {
-                        if (cp == true)
-                        {
-                            itens.Add(new PrinterItens(D.Order, D.OP, D.Client, (Itens)avi));
-                            cp = false;
-                        }
-                        else
-                        {
-                            itens[itens.Count - 1].AddList((Itens)avi);
-                        }
-                    }
+                    itens.Add(new PrinterItens(D.Order, D.OP, D.Client, D.Aviation));
                 }
                 if (D.Accessories.Count != 0)
                 {
-                    cp = true;
-                    foreach (Accessories ace in D.Accessories)
-                    {
-                        if (cp == true)
-                        {
-                            itens.Add(new PrinterItens(D.Order, D.OP, D.Client, (Itens)ace));
-                            cp = false;
-                        }
-                        else
-                        {
-                            itens[itens.Count - 1].AddList((Itens)ace);
-                        }
-                    }
+                    itens.Add(new PrinterItens(D.Order, D.OP, D.Client, D.Accessories));
                 }
                 if (D.Mirrors.Count != 0)
                 {
-                    cp = true;
-                    foreach (Mirrors mir in D.Mirrors)
-                    {
-                        if (cp == true)
-                        {
-                            itens.Add(new PrinterItens(D.Order, D.OP, D.Client, (Itens)mir));
-                            cp = false;
-                        }
-                        else
-                        {
-                            itens[itens.Count - 1].AddList((Itens)mir);
-                        }
-                    }
+                    itens.Add(new PrinterItens(D.Order, D.OP, D.Client, D.Mirrors));
                 }
                 if (D.Ironmongery.Count != 0)
                 {
-                    cp = true;
-                    foreach (Ironmongery iron in D.Ironmongery)
-                    {
-                        if (cp == true)
-                        {
-                            itens.Add(new PrinterItens(D.Order, D.OP, D.Client, (Itens)iron));
-                            cp = false;
-                        }
-                        else
-                        {
-                            itens[itens.Count - 1].AddList((Itens)iron);
-                        }
-                    }
+                    itens.Add(new PrinterItens(D.Order, D.OP, D.Client, D.Ironmongery));
                 }
             }
 
@@ -196,28 +149,28 @@ namespace Separacao_de_Materiais
                     lblCli.Text = "Cliente: " + d.Client;
                     if (d.Aviation.Count != 0)
                     {
-                        foreach (Aviation avi in d.Aviation)
+                        foreach (Itens avi in d.Aviation)
                         {
                             TreeAdd(avi);
                         }
                     }
                     if (d.Accessories.Count != 0)
                     {
-                        foreach (Accessories acce in d.Accessories)
+                        foreach (Itens acce in d.Accessories)
                         {
                             TreeAdd(acce);
                         }
                     }
                     if (d.Mirrors.Count != 0)
                     {
-                        foreach (Mirrors mirr in d.Mirrors)
+                        foreach (Itens mirr in d.Mirrors)
                         {
                             TreeAdd(mirr);
                         }
                     }
                     if (d.Ironmongery.Count != 0)
                     {
-                        foreach (Ironmongery iron in d.Ironmongery)
+                        foreach (Itens iron in d.Ironmongery)
                         {
                             TreeAdd(iron);
                         }
@@ -267,6 +220,11 @@ namespace Separacao_de_Materiais
             }
         }
 
+        private int CountItens()
+        {
+            int count = printers.Count % 3 == 0 ? printers.Count() / 3 : printers.Count() / 3 + 1;
+            return count;
+        }
         //_________________________________________CONSTRUTOR______________________________________
         public FrmPrincipal()
         {
@@ -326,18 +284,39 @@ namespace Separacao_de_Materiais
 
         private void btnImprimir_Click(object sender, EventArgs e)
         {
-            printPreviewDialog1.Document = printMaterial;
-            printPreviewDialog1.ShowDialog();
+            printers = ConferPrintItens();
+            teste();
+            for (int i = 0; i < CountItens(); i++)
+            {
+                cap += 3;
+                printPreviewDialog1.Document = printMaterial;
+                printPreviewDialog1.ShowDialog();
+            }
+            Index = 0;
+        }
+
+
+        private void teste()
+        {
+            int n = 1;
+
+            foreach (PrinterItens p in printers)
+            {
+
+                MessageBox.Show($"Num: {n}º" +
+                    $"\nPedido: {p.Order}" +
+                    $"\nOP: {p.OP}" +
+                    $"\nCliente: {p.Client}" +
+                    $"Grupo: {p.Group}" +
+                    $"\nDescrição: {p.Description}");
+                n++;
+            }
+
         }
 
         private void printMaterial_PrintPage(object sender, PrintPageEventArgs e)
         {
-            if (Index == 0)
-            {
-                printers = ConferPrintItens();
-            }
-
-            
+            e.HasMorePages = false;
             Pen pen = new Pen(Color.Black, 1);
             Font fontCab = new Font("Tahoma", 10, FontStyle.Bold);
             Font fontCont = new Font("Tahoma", 8, FontStyle.Regular);
@@ -346,41 +325,19 @@ namespace Separacao_de_Materiais
             int pages = 0;
             float pageHeight = e.MarginBounds.Height;
             float totalHeight = InfoTam + (descHeight / 2) * 4 + iniInfoPos;
-
             Image logo = ResizeImage(image, (int)InfoTam - 5, (int)InfoTam - 10);
 
-            for (int i = Index; i < printers.Count; i++)
+            for (int i = Index; i < printers.Count(); i++)
             {
 
-                if (y + totalHeight > pageHeight || y >= pageHeight)
-                {
-                    Index = i + 1;
-                    e.HasMorePages = true;
-                    return;
-                }
 
 
                 int numerador = 4;
-                string information = "";
-                foreach (Itens itens in printers[i]._Itens)
-                {
-                    if (countInfo == 0)
-                    {
-                        printers[i].AddDescription(itens.CreationTree());
-                    }
-                    information += $"\n{itens.ToString()}";
-                    countInfo++;
-                }
 
-                if (countInfo > 3)
+                if (printers[i].Description.Split('\n').Length > 3)
                 {
-                    numerador += countInfo - 3;
+                    numerador += printers[i].Description.Split('\n').Length - 3;
                 }
-                MessageBox.Show($"Pedido: {printers[i].Order}" +
-                    $"\nOP: {printers[i].OP}" +
-                    $"\nCliente: {printers[i].Client}" +
-                    $"\nGrupo: {printers[i].GroupDescription()}" +
-                    $"\nDescrição {information}");
                 // _________________________ Cabeçalho ___________________________
                 // Desenha o logo
                 e.Graphics.DrawRectangle(pen, iniInfoPos, y, InfoTam, InfoTam);
@@ -410,7 +367,7 @@ namespace Separacao_de_Materiais
 
                 // Coluna do Grupo
                 e.Graphics.DrawRectangle(pen, iniInfoPos, y, iniInfoPos, (descHeight * 3) + (((descHeight / 2) * numerador)));
-                e.Graphics.DrawString(printers[i].GroupDescription(), fontCab, Brushes.Black, iniInfoPos + 5, y + 5);
+                e.Graphics.DrawString(printers[i].Group, fontCab, Brushes.Black, iniInfoPos + 5, y + 5);
 
                 // Linha do Pedido
                 e.Graphics.DrawRectangle(pen, iniInfoPos * 2, y, cellDesc, descHeight);
@@ -440,24 +397,33 @@ namespace Separacao_de_Materiais
                 e.Graphics.DrawRectangle(pen, iniInfoPos * 2, y, cellDesc, (descHeight / 2) * numerador);
                 e.Graphics.DrawString("DESCRIÇÃO\nDO ITEM", fontCab, Brushes.Black, iniInfoPos * 2 + 5, y + descHeight / 2);
                 e.Graphics.DrawRectangle(pen, iniInfoPos * 2 + cellDesc, y, descWidth, (descHeight / 2) * numerador);
-                e.Graphics.DrawString(information, fontCont, Brushes.Black, iniInfoPos * 2 + cellDesc + 5, y + 2);
+                e.Graphics.DrawString(printers[i].Description, fontCont, Brushes.Black, iniInfoPos * 2 + cellDesc + 5, y + 2);
 
                 y += (descHeight / 2) * numerador + iniInfoPos;
 
                 // _________________________ Fim da impressão da página _________________________
-                countInfo = 0;
                 pages++;
-                e.HasMorePages = false;
+                if (pages == 3)
+                {
+                    Index = i;
+                    break;
+                }
             }
 
 
+        }
 
+        private void printMaterial_BeginPrint(object sender, PrintEventArgs e)
+        {
 
-           
-            Index = 0;
+            PaperSize tamanhoA4 = new PaperSize("A4", 827, 1169);
+            printMaterial.DefaultPageSettings.PaperSize = tamanhoA4;
 
         }
 
-
+        private void printMaterial_EndPrint(object sender, PrintEventArgs e)
+        {
+            printMaterial.Dispose();
+        }
     }
 }
