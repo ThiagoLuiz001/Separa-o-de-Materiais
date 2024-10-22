@@ -61,8 +61,6 @@ namespace Separacao_de_Materiais
 
         private List<PrinterItens> ConferPrintItens()
         {
-            int index;
-            bool cp = false;
             List<PrinterItens> itens = new List<PrinterItens>();
             foreach (Data D in Filter.datas)
             {
@@ -223,6 +221,7 @@ namespace Separacao_de_Materiais
         private int CountItens()
         {
             int count = printers.Count % 3 == 0 ? printers.Count() / 3 : printers.Count() / 3 + 1;
+            //MessageBox.Show($"Contagem de paginas: {count}");
             return count;
         }
         //_________________________________________CONSTRUTOR______________________________________
@@ -286,12 +285,14 @@ namespace Separacao_de_Materiais
         {
             printers = ConferPrintItens();
             teste();
-            for (int i = 0; i < CountItens(); i++)
-            {
-                cap += 3;
-                printPreviewDialog1.Document = printMaterial;
-                printPreviewDialog1.ShowDialog();
-            }
+            // for (int i = 0; i < CountItens(); i++)
+            //{
+
+            PrintDocument document = new PrintDocument();
+            cap += 3;
+            printPreviewDialog1.Document = printMaterial;
+            printPreviewDialog1.ShowDialog();
+            //}
             Index = 0;
         }
 
@@ -316,21 +317,26 @@ namespace Separacao_de_Materiais
 
         private void printMaterial_PrintPage(object sender, PrintPageEventArgs e)
         {
-            e.HasMorePages = false;
-            Pen pen = new Pen(Color.Black, 1);
-            Font fontCab = new Font("Tahoma", 10, FontStyle.Bold);
-            Font fontCont = new Font("Tahoma", 8, FontStyle.Regular);
-            Image image = Resources.logo;
+
+            var pen = new Pen(Color.Black, 1);
+            var fontCab = new Font("Tahoma", 10, FontStyle.Bold);
+            var fontCont = new Font("Tahoma", 8, FontStyle.Regular);
+            var image = Resources.logo;
             float iniInfoPos = 30, InfoTam = 100, InfoWidth = 250, descWidth = 420, descHeight = 40, cellDesc = 150, x = 60, y = 30;
             int pages = 0;
             float pageHeight = e.MarginBounds.Height;
             float totalHeight = InfoTam + (descHeight / 2) * 4 + iniInfoPos;
-            Image logo = ResizeImage(image, (int)InfoTam - 5, (int)InfoTam - 10);
+            var logo = ResizeImage(image, (int)InfoTam - 5, (int)InfoTam - 10);
 
+            e.HasMorePages = false;
             for (int i = Index; i < printers.Count(); i++)
             {
-
-
+                if (pages == 3)
+                {
+                    e.HasMorePages = true;
+                    Index = i;
+                    break;
+                }
 
                 int numerador = 4;
 
@@ -403,12 +409,18 @@ namespace Separacao_de_Materiais
 
                 // _________________________ Fim da impressão da página _________________________
                 pages++;
-                if (pages == 3)
-                {
-                    Index = i;
-                    break;
-                }
+
+
+
             }
+
+            if (Index == printers.Count())
+            {
+                e.HasMorePages = false;
+                Index = 0;
+            }
+
+
 
 
         }
@@ -423,7 +435,7 @@ namespace Separacao_de_Materiais
 
         private void printMaterial_EndPrint(object sender, PrintEventArgs e)
         {
-            printMaterial.Dispose();
+
         }
     }
 }

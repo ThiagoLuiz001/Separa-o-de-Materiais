@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|C:\\Novo Almoxarifado\\Separacao de Materiais\\separacao de materiais\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\models\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\models\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\entities\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\entities\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|C:\\Novo Almoxarifado\\Separacao de Materiais\\separacao de materiais\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\entities\\printeritens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,11 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Data.cs",
               "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Data.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Data.cs",
@@ -91,8 +91,7 @@
               "ViewState": "AQIAAEYAAAAAAAAAAAAYwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T14:44:56.603Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -100,33 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataIntegrity.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
-              "RelativeDocumentMoniker": "Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
-              "RelativeToolTip": "Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:37:13.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "OrdersDAO.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\DAO\\OrdersDAO.cs",
-              "RelativeDocumentMoniker": "Separacao de Materiais\\DAO\\OrdersDAO.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\DAO\\OrdersDAO.cs",
-              "RelativeToolTip": "Separacao de Materiais\\DAO\\OrdersDAO.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T13:11:33.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Orders.cs",
               "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Commons\\Orders.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Commons\\Orders.cs",
@@ -134,12 +107,11 @@
               "RelativeToolTip": "Separacao de Materiais\\Entities\\Commons\\Orders.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:15:21.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T16:15:21.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Itens.cs",
               "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Commons\\Itens.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Commons\\Itens.cs",
@@ -147,8 +119,7 @@
               "RelativeToolTip": "Separacao de Materiais\\Entities\\Commons\\Itens.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAA0wCAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T16:32:48.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T16:32:48.75Z"
             },
             {
               "$type": "Document",
@@ -160,12 +131,11 @@
               "RelativeToolTip": "Separacao de Materiais\\Entities\\PrinterItens.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T11:48:14.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T11:48:14.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Filter.cs",
               "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Models\\Filter.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Models\\Filter.cs",
@@ -173,8 +143,7 @@
               "RelativeToolTip": "Separacao de Materiais\\Models\\Filter.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T14:45:06.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T14:45:06.054Z"
             },
             {
               "$type": "Document",
@@ -184,22 +153,45 @@
               "RelativeDocumentMoniker": "Separacao de Materiais\\Forms\\FrmPrincipal.cs",
               "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs",
               "RelativeToolTip": "Separacao de Materiais\\Forms\\FrmPrincipal.cs",
-              "ViewState": "AQIAAHIBAAAAAAAAAAAtwD4BAAAiAAAA",
+              "ViewState": "AQIAAJQBAAAAAAAAAAAAAJ0BAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T16:42:47.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "FrmPrincipal.cs [Projeto]",
               "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Forms\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs [Projeto]",
-              "RelativeToolTip": "Separacao de Materiais\\Forms\\FrmPrincipal.cs [Projeto]",
+              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs [Projeto]*",
+              "RelativeToolTip": "Separacao de Materiais\\Forms\\FrmPrincipal.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T16:42:42.519Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-09-27T16:42:42.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdersDAO.cs",
+              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\DAO\\OrdersDAO.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\DAO\\OrdersDAO.cs",
+              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\DAO\\OrdersDAO.cs",
+              "RelativeToolTip": "Separacao de Materiais\\DAO\\OrdersDAO.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T13:11:33.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataIntegrity.cs",
+              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
+              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
+              "RelativeToolTip": "Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T16:37:13.076Z"
             },
             {
               "$type": "Document",
@@ -211,8 +203,7 @@
               "RelativeToolTip": "Separacao de Materiais\\DAO\\ItensDAO.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAgwAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:08:22.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T16:08:22.963Z"
             },
             {
               "$type": "Document",
@@ -224,8 +215,7 @@
               "RelativeToolTip": "Separacao de Materiais\\DAO\\Connection.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T13:09:19.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T13:09:19.611Z"
             },
             {
               "$type": "Document",
@@ -237,8 +227,7 @@
               "RelativeToolTip": "Separacao de Materiais\\Entities\\Exceptions\\ExceptionsGroup.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:46:59.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:46:59.77Z"
             },
             {
               "$type": "Document",
@@ -250,8 +239,7 @@
               "RelativeToolTip": "Separacao de Materiais\\Entities\\Exceptions\\ExceptionsInformation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:47:58.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:47:58.82Z"
             },
             {
               "$type": "Document",
@@ -273,8 +261,7 @@
               "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmErase.cs [Projeto]",
               "RelativeToolTip": "Separacao de Materiais\\Forms\\FrmErase.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:44:54.225Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-09-27T11:44:54.225Z"
             },
             {
               "$type": "Document",
@@ -298,8 +285,7 @@
               "RelativeToolTip": "Separacao de Materiais\\Forms\\FrmErase.Designer.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAlwBMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T17:23:42.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T17:23:42.705Z"
             }
           ]
         }
