@@ -1,73 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Novo Almoxarifado\\Separacao de Materiais\\",
+  "WorkspaceRootPath": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|C:\\Novo Almoxarifado\\Separacao de Materiais\\separacao de materiais\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\models\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\models\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\models\\validations\\dataintegrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\models\\validations\\dataintegrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\entities\\commons\\itens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\entities\\commons\\itens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\entities\\commons\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\entities\\commons\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\dao\\ordersdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\dao\\ordersdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\entities\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\entities\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\entities\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\entities\\printeritens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\entities\\printeritens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\entities\\commons\\itens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\entities\\commons\\itens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\dao\\itensdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\entities\\commons\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\entities\\commons\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\dao\\itensdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\dao\\itensdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\dao\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\styles\\style_textbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\styles\\style_textbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\styles\\style_panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\styles\\style_panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\styles\\style_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\styles\\style_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\styles\\style_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\styles\\style_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\entities\\printeritens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\entities\\printeritens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\dao\\ordersdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\dao\\ordersdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\models\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\models\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\models\\validations\\dataintegrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\models\\validations\\dataintegrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\dao\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\dao\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\entities\\exceptions\\exceptionsinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\entities\\exceptions\\exceptionsinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\entities\\exceptions\\exceptionsinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\entities\\exceptions\\exceptionsgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\entities\\exceptions\\exceptionsgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\entities\\exceptions\\exceptionsgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|C:\\Novo Almoxarifado\\Separacao de Materiais\\separacao de materiais\\forms\\frmerase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\separacao de materiais\\forms\\frmerase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\forms\\frmerase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\entities\\enums\\enumgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\entities\\enums\\enumgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\entities\\enums\\enumgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|C:\\Novo Almoxarifado\\Separacao de Materiais\\separacao de materiais\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\separacao de materiais\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\novo almoxarifado\\separacao de materiais\\separacao de materiais\\forms\\frmerase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|c:\\users\\thiago\\source\\repos\\thiagoluiz001\\separa-o-de-materiais\\separacao de materiais\\forms\\frmerase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFB9859A-3E77-40D2-8FAE-95D3201F43E8}|Separacao de Materiais\\Separacao de Materiais.csproj|solutionrelative:separacao de materiais\\forms\\frmerase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -81,17 +97,16 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Data.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Data.cs",
-              "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Data.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Data.cs",
-              "RelativeToolTip": "Separacao de Materiais\\Entities\\Data.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAYwAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T14:44:56.603Z",
-              "IsPinned": true
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -99,47 +114,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Orders.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Commons\\Orders.cs",
-              "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Commons\\Orders.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Commons\\Orders.cs",
-              "RelativeToolTip": "Separacao de Materiais\\Entities\\Commons\\Orders.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "DocumentIndex": 2,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Data.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Data.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Data.cs",
+              "RelativeToolTip": "Separacao de Materiais\\Entities\\Data.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:15:21.793Z"
+              "WhenOpened": "2024-10-28T10:22:42.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Itens.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Commons\\Itens.cs",
-              "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Commons\\Itens.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Commons\\Itens.cs",
-              "RelativeToolTip": "Separacao de Materiais\\Entities\\Commons\\Itens.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA0wCAAAAAaAAAA",
+              "DocumentIndex": 7,
+              "Title": "Style_Panel.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Styles\\Style_Panel.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\Styles\\Style_Panel.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Styles\\Style_Panel.cs",
+              "RelativeToolTip": "Separacao de Materiais\\Styles\\Style_Panel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T16:32:48.75Z"
+              "WhenOpened": "2024-10-24T14:02:52.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\Forms\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs",
+              "RelativeToolTip": "Separacao de Materiais\\Forms\\FrmPrincipal.cs",
+              "ViewState": "AQIAAE0BAAAAAAAAAAAlwFcBAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T16:42:47.081Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "PrinterItens.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\PrinterItens.cs",
-              "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\PrinterItens.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\PrinterItens.cs",
-              "RelativeToolTip": "Separacao de Materiais\\Entities\\PrinterItens.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAxAAAA",
+              "Title": "Style_Button.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Styles\\Style_Button.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\Styles\\Style_Button.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Styles\\Style_Button.cs",
+              "RelativeToolTip": "Separacao de Materiais\\Styles\\Style_Button.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T11:48:14.678Z"
+              "WhenOpened": "2024-10-24T13:15:13.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "FrmPrincipal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\Forms\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs [Projeto]",
+              "RelativeToolTip": "Separacao de Materiais\\Forms\\FrmPrincipal.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T16:42:42.519Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Itens.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Commons\\Itens.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Commons\\Itens.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Commons\\Itens.cs",
+              "RelativeToolTip": "Separacao de Materiais\\Entities\\Commons\\Itens.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T16:32:48.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Commons\\Orders.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Commons\\Orders.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Commons\\Orders.cs",
+              "RelativeToolTip": "Separacao de Materiais\\Entities\\Commons\\Orders.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:15:21.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Style_TextBox.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Styles\\Style_TextBox.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\Styles\\Style_TextBox.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Styles\\Style_TextBox.cs",
+              "RelativeToolTip": "Separacao de Materiais\\Styles\\Style_TextBox.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAmwEEAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:34:44.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Style_Grid.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Styles\\Style_Grid.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\Styles\\Style_Grid.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Styles\\Style_Grid.cs",
+              "RelativeToolTip": "Separacao de Materiais\\Styles\\Style_Grid.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAuwCQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:43:05.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Filter.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Models\\Filter.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Models\\Filter.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Models\\Filter.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Models\\Filter.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Models\\Filter.cs",
               "RelativeToolTip": "Separacao de Materiais\\Models\\Filter.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,47 +238,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmPrincipal.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs",
-              "RelativeDocumentMoniker": "Separacao de Materiais\\Forms\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs",
-              "RelativeToolTip": "Separacao de Materiais\\Forms\\FrmPrincipal.cs",
-              "ViewState": "AQIAAJQBAAAAAAAAAAAAAJ0BAAAAAAAA",
+              "DocumentIndex": 10,
+              "Title": "PrinterItens.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\PrinterItens.cs",
+              "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\PrinterItens.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\PrinterItens.cs",
+              "RelativeToolTip": "Separacao de Materiais\\Entities\\PrinterItens.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T16:42:47.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T11:48:14.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmPrincipal.cs [Projeto]",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs",
-              "RelativeDocumentMoniker": "Separacao de Materiais\\Forms\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmPrincipal.cs [Projeto]*",
-              "RelativeToolTip": "Separacao de Materiais\\Forms\\FrmPrincipal.cs [Projeto]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T16:42:42.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "OrdersDAO.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\DAO\\OrdersDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\DAO\\OrdersDAO.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\DAO\\OrdersDAO.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\DAO\\OrdersDAO.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\DAO\\OrdersDAO.cs",
               "RelativeToolTip": "Separacao de Materiais\\DAO\\OrdersDAO.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAswBkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T13:11:33.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "DataIntegrity.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
               "RelativeToolTip": "Separacao de Materiais\\Models\\Validations\\DataIntegrity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -195,11 +274,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "ItensDAO.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\DAO\\ItensDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\DAO\\ItensDAO.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\DAO\\ItensDAO.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\DAO\\ItensDAO.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\DAO\\ItensDAO.cs",
               "RelativeToolTip": "Separacao de Materiais\\DAO\\ItensDAO.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAgwAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -207,11 +286,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\DAO\\Connection.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\DAO\\Connection.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\DAO\\Connection.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\DAO\\Connection.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\DAO\\Connection.cs",
               "RelativeToolTip": "Separacao de Materiais\\DAO\\Connection.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -219,11 +298,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ExceptionsGroup.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Exceptions\\ExceptionsGroup.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Exceptions\\ExceptionsGroup.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Exceptions\\ExceptionsGroup.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Exceptions\\ExceptionsGroup.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Exceptions\\ExceptionsGroup.cs",
               "RelativeToolTip": "Separacao de Materiais\\Entities\\Exceptions\\ExceptionsGroup.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,11 +310,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ExceptionsInformation.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Exceptions\\ExceptionsInformation.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Exceptions\\ExceptionsInformation.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Exceptions\\ExceptionsInformation.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Exceptions\\ExceptionsInformation.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Exceptions\\ExceptionsInformation.cs",
               "RelativeToolTip": "Separacao de Materiais\\Entities\\Exceptions\\ExceptionsInformation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -243,33 +322,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Properties\\Resources.resx",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Properties\\Resources.resx",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Properties\\Resources.resx",
               "RelativeToolTip": "Separacao de Materiais\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-10-04T11:21:54.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "FrmErase.cs [Projeto]",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmErase.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Forms\\FrmErase.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Forms\\FrmErase.cs",
               "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmErase.cs [Projeto]",
-              "RelativeToolTip": "Separacao de Materiais\\Forms\\FrmErase.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmErase.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T11:44:54.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "EnumGroups.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Enums\\EnumGroups.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Enums\\EnumGroups.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Entities\\Enums\\EnumGroups.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Entities\\Enums\\EnumGroups.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Entities\\Enums\\EnumGroups.cs",
               "RelativeToolTip": "Separacao de Materiais\\Entities\\Enums\\EnumGroups.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -277,11 +356,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "FrmErase.Designer.cs",
-              "DocumentMoniker": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmErase.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Forms\\FrmErase.Designer.cs",
               "RelativeDocumentMoniker": "Separacao de Materiais\\Forms\\FrmErase.Designer.cs",
-              "ToolTip": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Forms\\FrmErase.Designer.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Forms\\FrmErase.Designer.cs",
               "RelativeToolTip": "Separacao de Materiais\\Forms\\FrmErase.Designer.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAlwBMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

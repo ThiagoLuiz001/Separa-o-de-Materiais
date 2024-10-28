@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Separacao de Materiais")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+182cc82b9ca04f47298143c8397b34f9423dd37e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76ff0e9a31f8eefe047d9052c0dc32066bec8536")]
 [assembly: System.Reflection.AssemblyProductAttribute("Separacao de Materiais")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Separacao de Materiais")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

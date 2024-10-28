@@ -13,6 +13,7 @@ using System.Windows.Forms;
 using Separacao_de_Materiais.Properties;
 using System.Runtime.Intrinsics.X86;
 using Microsoft.VisualBasic;
+using Separacao_de_Materiais.Styles;
 
 namespace Separacao_de_Materiais
 {
@@ -181,14 +182,14 @@ namespace Separacao_de_Materiais
         /// </summary>
         private void GridAdd()
         {
-            gridMateriais.Rows.Clear();
+            SgridPedido.Rows.Clear();
             foreach (Data i in Filter.datas)
             {
 
                 bool b = false;
-                for (int j = 0; j < gridMateriais.Rows.Count; j++)
+                for (int j = 0; j < SgridPedido.Rows.Count; j++)
                 {
-                    if (Convert.ToInt32(gridMateriais.Rows[j].Cells[2].Value) != i.OP)
+                    if (Convert.ToInt32(SgridPedido.Rows[j].Cells[2].Value) != i.OP)
                     {
                         b = true;
                     }
@@ -200,13 +201,13 @@ namespace Separacao_de_Materiais
                 }
                 if (b)
                 {
-                    if (gridMateriais.Rows.Count == 0)
+                    if (SgridPedido.Rows.Count == 0)
                     {
-                        gridMateriais.Rows.Add("1º", i.Order, i.OP, i.Client, $"Visu {i.OP}", $"Apag {i.OP}");
+                        SgridPedido.Rows.Add("1º", i.Order, i.OP, i.Client, $"Visu {i.OP}", $"Apag {i.OP}");
                     }
                     else
                     {
-                        gridMateriais.Rows.Add($"{gridMateriais.Rows.Count}º", i.Order, i.OP, i.Client, $"Visu {i.OP}", $"Apag {i.OP}");
+                        SgridPedido.Rows.Add($"{SgridPedido.Rows.Count}º", i.Order, i.OP, i.Client, $"Visu {i.OP}", $"Apag {i.OP}");
                     }
                 }
                 else
@@ -228,7 +229,7 @@ namespace Separacao_de_Materiais
         public FrmPrincipal()
         {
             InitializeComponent();
-            gridMateriais.Rows.Clear();
+            SgridPedido.Rows.Clear();
             GridAdd();
             printMaterial.PrintPage += new PrintPageEventHandler(printMaterial_PrintPage);
         }
@@ -241,7 +242,7 @@ namespace Separacao_de_Materiais
                 try
                 {
                     RequestValidation rv = new RequestValidation();
-                    int value = rv.InformationIntegrity(txtPedido.Text);
+                    int value = rv.InformationIntegrity(StxtPedido.Text);
                     Filter.AddList(value);
                     GridAdd();
 
@@ -253,19 +254,19 @@ namespace Separacao_de_Materiais
             }
         }
 
-        private void gridMateriais_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void SgridPedido_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
-                if (gridMateriais.Columns[e.ColumnIndex].Name == "clVisualizar")
+                if (SgridPedido.Columns[e.ColumnIndex].Name == "clVisu")
                 {
-                    TreeVisualization(Convert.ToInt32(gridMateriais.Rows[e.RowIndex].Cells[2].Value));
+                    TreeVisualization(Convert.ToInt32(SgridPedido.Rows[e.RowIndex].Cells[2].Value));
                 }
-                else if (gridMateriais.Columns[e.ColumnIndex].Name == "clApagar")
+                else if (SgridPedido.Columns[e.ColumnIndex].Name == "clApag")
                 {
                     foreach (Data D in Filter.datas)
                     {
-                        if (D.OP == Convert.ToInt32(gridMateriais.Rows[e.RowIndex].Cells[2].Value))
+                        if (D.OP == Convert.ToInt32(SgridPedido.Rows[e.RowIndex].Cells[2].Value))
                         {
                             MessageBox.Show($"Aviamento: {D.Aviation.Count}\n" +
                                 $"Acessorios: {D.Accessories.Count}\n" +
@@ -281,10 +282,31 @@ namespace Separacao_de_Materiais
             }
         }
 
-        private void btnImprimir_Click(object sender, EventArgs e)
+        private void StxtPedido_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                try
+                {
+                    RequestValidation rv = new RequestValidation();
+                    int value = rv.InformationIntegrity(StxtPedido.Text);
+                    Filter.AddList(value);
+                    GridAdd();
+
+                }
+                catch (ExceptionsInformation ex)
+                {
+                    MessageBox.Show(ex.ToString(), caption: "Erro de Digitação", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                StxtPedido.Text = "";
+            }
+
+        }
+
+        private void SbtnImprimir_Click(object sender, EventArgs e)
         {
             printers = ConferPrintItens();
-            teste();
+            //teste();
             // for (int i = 0; i < CountItens(); i++)
             //{
 
@@ -317,7 +339,13 @@ namespace Separacao_de_Materiais
 
         private void printMaterial_PrintPage(object sender, PrintPageEventArgs e)
         {
+          //  if(Index > 0) 
+           // {
+                e.Graphics.Clear(Color.White); 
+           //}
 
+
+            var g = e.Graphics;        
             var pen = new Pen(Color.Black, 1);
             var fontCab = new Font("Tahoma", 10, FontStyle.Bold);
             var fontCont = new Font("Tahoma", 8, FontStyle.Regular);
@@ -328,11 +356,12 @@ namespace Separacao_de_Materiais
             float totalHeight = InfoTam + (descHeight / 2) * 4 + iniInfoPos;
             var logo = ResizeImage(image, (int)InfoTam - 5, (int)InfoTam - 10);
 
-            e.HasMorePages = false;
+            
             for (int i = Index; i < printers.Count(); i++)
             {
-                if (pages == 3)
+                if (y + totalHeight > pageHeight)
                 {
+                    y = 30;
                     e.HasMorePages = true;
                     Index = i;
                     break;
@@ -346,64 +375,64 @@ namespace Separacao_de_Materiais
                 }
                 // _________________________ Cabeçalho ___________________________
                 // Desenha o logo
-                e.Graphics.DrawRectangle(pen, iniInfoPos, y, InfoTam, InfoTam);
-                e.Graphics.DrawImage(logo, iniInfoPos + 3, y + 5);
+                g.DrawRectangle(pen, iniInfoPos, y, InfoTam, InfoTam);
+                g.DrawImage(logo, iniInfoPos + 3, y + 5);
 
                 // Registro de Qualidade
-                e.Graphics.DrawRectangle(pen, iniInfoPos + InfoTam, y, InfoWidth, (InfoTam / 2));
-                e.Graphics.DrawString("Registro de Qualidade", fontCab, Brushes.Black, iniInfoPos + InfoTam + 5, y + InfoTam / 4);
+                g.DrawRectangle(pen, iniInfoPos + InfoTam, y, InfoWidth, (InfoTam / 2));
+                g.DrawString("Registro de Qualidade", fontCab, Brushes.Black, iniInfoPos + InfoTam + 5, y + InfoTam / 4);
 
                 // GRD
-                e.Graphics.DrawRectangle(pen, iniInfoPos + InfoTam + InfoWidth, y, InfoWidth, InfoTam / 2);
-                e.Graphics.DrawString("GRD_ALM-023 - Ed. 02", fontCab, Brushes.Black, iniInfoPos + InfoTam + InfoWidth + 5, y + InfoTam / 4);
+                g.DrawRectangle(pen, iniInfoPos + InfoTam + InfoWidth, y, InfoWidth, InfoTam / 2);
+                g.DrawString("GRD_ALM-023 - Ed. 02", fontCab, Brushes.Black, iniInfoPos + InfoTam + InfoWidth + 5, y + InfoTam / 4);
 
                 y += InfoTam / 2;
 
                 // Separação de materiais
-                e.Graphics.DrawRectangle(pen, iniInfoPos + InfoTam, y, InfoWidth, InfoTam / 2);
-                e.Graphics.DrawString("Separação de Materiais\npara Especiais", fontCab, Brushes.Black, iniInfoPos + InfoTam + 5, y + 5);
+                g.DrawRectangle(pen, iniInfoPos + InfoTam, y, InfoWidth, InfoTam / 2);
+                g.DrawString("Separação de Materiais\npara Especiais", fontCab, Brushes.Black, iniInfoPos + InfoTam + 5, y + 5);
 
                 // Data de Criação do Documento
-                e.Graphics.DrawRectangle(pen, iniInfoPos + InfoTam + InfoWidth, y, InfoWidth, InfoTam / 2);
-                e.Graphics.DrawString("Data: 07/10/2024", fontCab, Brushes.Black, iniInfoPos + InfoTam + InfoWidth + 5, y + InfoTam / 4);
+                g.DrawRectangle(pen, iniInfoPos + InfoTam + InfoWidth, y, InfoWidth, InfoTam / 2);
+                g.DrawString("Data: 07/10/2024", fontCab, Brushes.Black, iniInfoPos + InfoTam + InfoWidth + 5, y + InfoTam / 4);
 
                 y += InfoTam / 2;
 
                 // _________________________ Informações _________________________
 
                 // Coluna do Grupo
-                e.Graphics.DrawRectangle(pen, iniInfoPos, y, iniInfoPos, (descHeight * 3) + (((descHeight / 2) * numerador)));
-                e.Graphics.DrawString(printers[i].Group, fontCab, Brushes.Black, iniInfoPos + 5, y + 5);
+                g.DrawRectangle(pen, iniInfoPos, y, iniInfoPos, (descHeight * 3) + (((descHeight / 2) * numerador)));
+                g.DrawString(printers[i].Group, fontCab, Brushes.Black, iniInfoPos + 5, y + 5);
 
                 // Linha do Pedido
-                e.Graphics.DrawRectangle(pen, iniInfoPos * 2, y, cellDesc, descHeight);
-                e.Graphics.DrawString("PEDIDO:", fontCab, Brushes.Black, iniInfoPos * 2 + 5, y + descHeight / 2);
-                e.Graphics.DrawRectangle(pen, iniInfoPos * 2 + cellDesc, y, descWidth, descHeight);
-                e.Graphics.DrawString(printers[i].Order.ToString(), fontCont, Brushes.Black, iniInfoPos * 2 + cellDesc + 5, y + descHeight / 2);
+                g.DrawRectangle(pen, iniInfoPos * 2, y, cellDesc, descHeight);
+                g.DrawString("PEDIDO:", fontCab, Brushes.Black, iniInfoPos * 2 + 5, y + descHeight / 2);
+                g.DrawRectangle(pen, iniInfoPos * 2 + cellDesc, y, descWidth, descHeight);
+                g.DrawString(printers[i].Order.ToString(), fontCont, Brushes.Black, iniInfoPos * 2 + cellDesc + 5, y + descHeight / 2);
 
                 y += descHeight;
 
                 // Linha OP
-                e.Graphics.DrawRectangle(pen, iniInfoPos * 2, y, cellDesc, descHeight);
-                e.Graphics.DrawString("OP:", fontCab, Brushes.Black, iniInfoPos * 2 + 5, y + descHeight / 2);
-                e.Graphics.DrawRectangle(pen, iniInfoPos * 2 + cellDesc, y, descWidth, descHeight);
-                e.Graphics.DrawString(printers[i].OP.ToString(), fontCont, Brushes.Black, iniInfoPos * 2 + cellDesc + 5, y + descHeight / 2);
+                g.DrawRectangle(pen, iniInfoPos * 2, y, cellDesc, descHeight);
+                g.DrawString("OP:", fontCab, Brushes.Black, iniInfoPos * 2 + 5, y + descHeight / 2);
+                g.DrawRectangle(pen, iniInfoPos * 2 + cellDesc, y, descWidth, descHeight);
+                g.DrawString(printers[i].OP.ToString(), fontCont, Brushes.Black, iniInfoPos * 2 + cellDesc + 5, y + descHeight / 2);
 
                 y += descHeight;
 
                 // Linha Cliente
-                e.Graphics.DrawRectangle(pen, iniInfoPos * 2, y, cellDesc, descHeight);
-                e.Graphics.DrawString("CLIENTE:", fontCab, Brushes.Black, iniInfoPos * 2 + 5, y + descHeight / 2);
-                e.Graphics.DrawRectangle(pen, iniInfoPos * 2 + cellDesc, y, descWidth, descHeight);
-                e.Graphics.DrawString(printers[i].Client, fontCont, Brushes.Black, iniInfoPos * 2 + cellDesc + 5, y + descHeight / 2);
+                g.DrawRectangle(pen, iniInfoPos * 2, y, cellDesc, descHeight);
+                g.DrawString("CLIENTE:", fontCab, Brushes.Black, iniInfoPos * 2 + 5, y + descHeight / 2);
+                g.DrawRectangle(pen, iniInfoPos * 2 + cellDesc, y, descWidth, descHeight);
+                g.DrawString(printers[i].Client, fontCont, Brushes.Black, iniInfoPos * 2 + cellDesc + 5, y + descHeight / 2);
 
                 y += descHeight;
 
                 // Linha Descrição
-                e.Graphics.DrawRectangle(pen, iniInfoPos * 2, y, cellDesc, (descHeight / 2) * numerador);
-                e.Graphics.DrawString("DESCRIÇÃO\nDO ITEM", fontCab, Brushes.Black, iniInfoPos * 2 + 5, y + descHeight / 2);
-                e.Graphics.DrawRectangle(pen, iniInfoPos * 2 + cellDesc, y, descWidth, (descHeight / 2) * numerador);
-                e.Graphics.DrawString(printers[i].Description, fontCont, Brushes.Black, iniInfoPos * 2 + cellDesc + 5, y + 2);
+                g.DrawRectangle(pen, iniInfoPos * 2, y, cellDesc, (descHeight / 2) * numerador);
+                g.DrawString("DESCRIÇÃO\nDO ITEM", fontCab, Brushes.Black, iniInfoPos * 2 + 5, y + descHeight / 2);
+                g.DrawRectangle(pen, iniInfoPos * 2 + cellDesc, y, descWidth, (descHeight / 2) * numerador);
+                g.DrawString(printers[i].Description, fontCont, Brushes.Black, iniInfoPos * 2 + cellDesc + 5, y + 2);
 
                 y += (descHeight / 2) * numerador + iniInfoPos;
 
@@ -433,9 +462,6 @@ namespace Separacao_de_Materiais
 
         }
 
-        private void printMaterial_EndPrint(object sender, PrintEventArgs e)
-        {
-
-        }
+       
     }
 }

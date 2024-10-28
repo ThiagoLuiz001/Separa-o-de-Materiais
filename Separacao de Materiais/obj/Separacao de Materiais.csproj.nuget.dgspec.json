@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Separacao de Materiais.csproj": {}
+    "C:\\Users\\Thiago\\Source\\Repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Separacao de Materiais.csproj": {}
   },
   "projects": {
-    "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Separacao de Materiais.csproj": {
+    "C:\\Users\\Thiago\\Source\\Repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Separacao de Materiais.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Separacao de Materiais.csproj",
+        "projectUniqueName": "C:\\Users\\Thiago\\Source\\Repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Separacao de Materiais.csproj",
         "projectName": "Separacao de Materiais",
-        "projectPath": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\Separacao de Materiais.csproj",
-        "packagesPath": "C:\\Users\\Pcp4\\.nuget\\packages\\",
-        "outputPath": "C:\\Novo Almoxarifado\\Separacao de Materiais\\Separacao de Materiais\\obj\\",
+        "projectPath": "C:\\Users\\Thiago\\Source\\Repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\Separacao de Materiais.csproj",
+        "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thiago\\Source\\Repos\\ThiagoLuiz001\\Separa-o-de-Materiais\\Separacao de Materiais\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pcp4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
